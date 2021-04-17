@@ -58,6 +58,7 @@
     color: rgb(57, 32, 220);
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+    user-select: none;
 }
 .inicio .max-width{
     margin: auto 0 auto 40px;
@@ -106,6 +107,23 @@
 .inicio .inicio-content .audio:hover{
     background: none;
 }
+.inicio .inicio-content .btn_cielo{
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+    margin-left: 120px;
+    border: 2px solid cornflowerblue;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    background: cornflowerblue;
+}
+.inicio .inicio-content .btn_cielo:hover{
+    background: none;
+    color: cornflowerblue;
+}
+
+
 /* Mensaje */
 section {
     padding: 200px 0;
